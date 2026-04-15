@@ -1,0 +1,71 @@
+p {
+      color: lightsteelblue;
+    }
+    
+    body {
+      background-color: darkslategray;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+.Navigation {
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  font-size: larger;
+}
+table {
+      width: 20%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 2px solid #ddd;
+      padding: 3px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #9ef389;
+    }
+
+    td {
+      background-color: #6a9b78;
+    }
+
+    
+form {
+      display: flex;
+      flex-direction: column;
+      max-width: 250px;
+      gap: 2px;
+    }
+    
+label {
+      font-weight: bold;
+    }
+    
+input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+#message {
+      height: 100px;
+    }
+
+input[type="submit"] {
+      background-color: #614caf;
+      color: white;
+      padding: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+input[type="submit"]:hover {
+      background-color: #92c8ec;
+    }
